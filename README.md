@@ -37,5 +37,3 @@ sudo make install-go
 - [ ] Store translations in short-tern storage
 - [ ] Call existing service to translate
 - [ ] Move towards long-term storage
-# shipping-go
-# shipping-go
