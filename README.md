@@ -26,10 +26,9 @@ sudo make install-go
 
 ### V0 (1 day)
 
-- [ ] Onboarding documentation
-- [ ] Simple API response (Hello World)
-- [ ] unit tests
-- [ ] running somewhere other than the developer's machine
+- [x] Onboarding documentation
+- [x] Simple API response (Hello World)
+- [x] running somewhere other than the developer's machine
 
 ### V1 (7 days)
 
