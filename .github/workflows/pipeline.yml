@@ -19,7 +19,17 @@ jobs:
         run:  go get -t ./...
 
       - name: Test
-        run:  go test ./...
+        run:  make test
+      - name: Coverage Check
+        run:  make coverage
+      - name: Generate Coverage Report
+        run:  make report
+
+      - name: Copy Files
+        run: |
+          mkdir reports
+          cp coverage.html reports/.
+
       - name: Build
         run:  make build
 
