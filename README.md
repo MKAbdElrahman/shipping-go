@@ -32,7 +32,7 @@ sudo make install-go
 
 ### V1 (7 days)
 
-- [ ] Create translation endpoint
-- [ ] Store translations in short-tern storage
-- [ ] Call existing service to translate
+- [x] Create translation endpoint
+- [x] Store translations in short-term storage
+- [x] Call existing service to translate
 - [ ] Move towards long-term storage
