@@ -29,7 +29,11 @@ jobs:
         run: |
           mkdir reports
           cp coverage.html reports/.
-
+      - name: Archive Reports
+        uses: actions/upload-artifact@v2
+        with:
+          name: reports
+          path: reports
       - name: Build
         run:  make build
 
@@ -38,7 +42,7 @@ jobs:
           mkdir artifacts
           cp api artifacts/.
 
-      - name: Archive
+      - name: Archive API
         uses: actions/upload-artifact@v2
         with:
           name: api
